@@ -51,7 +51,7 @@ void generateArray(int ar[], int n, int i = 0) {
     else
     {
         ar[i] = -40 + rand() % (91);
-        generateArrayTemplate(ar, n, i + 1);
+        generateArray(ar, n, i + 1);
     }
 }
 
